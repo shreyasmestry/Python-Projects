@@ -1,0 +1,10 @@
+list=[2,"Shreyas",10,True]
+print(f"list before {list}")
+list.insert(2,"Shreyas")
+list.count("Shreyas")
+print(list)
+# list.remove("Shreyas")
+list.pop(3)
+# list.extend(["Mango","Apple"])
+print(list)
+list.clear()
